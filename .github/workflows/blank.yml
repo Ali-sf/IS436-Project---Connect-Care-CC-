@@ -18,6 +18,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v4
         with:
-          context: foosball/
+          context: connectcare/
           push: true
-          tags: shivathebravo/foosball:${{github.run_number}}
+          tags: Ali-sf/IS436-Project---Connect-Care-CC-:${{github.run_number}}
