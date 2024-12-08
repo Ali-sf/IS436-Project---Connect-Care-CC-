@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect Care - Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Connect Care</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="profilemanagement.html">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="appointmentscheduling.html">Appointments</a></li>
+          <li class="nav-item"><a class="nav-link" href="medicalrecords.html">Medical Records</a></li>
+          <li class="nav-item"><a class="nav-link" href="billingsandclaims.html">Billing</a></li>
+          <li class="nav-item"><a class="nav-link" href="messaging.html">Messages</a></li>
+          <li class="nav-item"><a class="nav-link" href="connectcarelogin.html">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-4">
+    <h1>Welcome to Connect Care Dashboard</h1>
+    <p>Your one-stop solution for managing healthcare efficiently.</p>
+  </header>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Overview Cards -->
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Upcoming Appointments</h5>
+            <p class="card-text">You have 2 upcoming appointments.</p>
+            <a href="appointmentscheduling.html" class="btn btn-primary">View Appointments</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Messages</h5>
+            <p class="card-text">3 new messages from your doctor.</p>
+            <a href="messaging.html" class="btn btn-primary">Check Messages</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Pending Bills</h5>
+            <p class="card-text">$250 in unpaid bills.</p>
+            <a href="billingsandclaims.html" class="btn btn-primary">Manage Billing</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="mt-5">
+      <h2>Quick Links</h2>
+      <div class="list-group">
+        <a href="medicalrecords.html" class="list-group-item list-group-item-action">View Medical Records</a>
+        <a href="profilemanagement.html" class="list-group-item list-group-item-action">Update Your Profile</a>
+        <a href="appointmentscheduling.html" class="list-group-item list-group-item-action">Schedule a New Appointment</a>
+        <a href="messaging.html" class="list-group-item list-group-item-action">Send a Message</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-muted py-3 mt-5">
+    <p>&copy; 2024 Connect Care. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
